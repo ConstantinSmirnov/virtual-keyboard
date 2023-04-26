@@ -1,1 +1,73 @@
-/*# sourceMappingURL=index.css.map */
+@import url("normilize.css");
+.keyboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.keyboard .keyboard__wrapper {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0.3em 0.3em 0 0;
+  background: #c4c4c4;
+  border: 1.5px solid #222222;
+  border-radius: 0.3em;
+}
+.keyboard .keyboard__wrapper .keyboard__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.625em 0;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item {
+  margin: 0 0.2em;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  min-width: 2.5em;
+  min-height: 2.5em;
+  border-radius: 0.3em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  letter-spacing: 0.05em;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.large {
+  padding: 0 0.625em;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.max-size {
+  padding: 0 6.875em;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.black {
+  background: #222222;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.black:hover {
+  transition: 0.5s ease all;
+  background: #77d496;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.grey {
+  background: #444444;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.grey:hover {
+  transition: 0.5s ease all;
+  background: #77d496;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.toggle {
+  border-radius: 50%;
+  background: red;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .hidden {
+  display: none;
+}
+
+textarea {
+  display: block;
+  width: 800px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+}/*# sourceMappingURL=index.css.map */
