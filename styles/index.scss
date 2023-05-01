@@ -1,0 +1,96 @@
+@import url('normilize.css');
+
+.keyboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .keyboard__wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0.3em 0.3em 0 0;
+    background: #c4c4c4;
+    border: 1.5px solid #222222;
+    border-radius: 0.3em;
+
+    .keyboard__row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: .625em 0;
+    
+      .keyboard__item {
+        margin: 0 0.2em;
+
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+          min-width: 2.5em;
+          min-height: 2.5em;
+          border-radius: 0.3em;
+          font-weight: 600;
+          cursor: pointer;
+          transition: .3s ease all;
+          letter-spacing: .05em;
+        }
+
+        .item.large {
+          padding: 0 0.625em;
+          
+          .toggle {
+            background: red;
+          }
+        }
+        
+        .item.max-size {
+          padding: 0 6.875em;
+        }
+        
+        .item.black {
+          background: #222222;
+
+          &:hover {
+            transition: .3s ease all;
+            background: #77d496;
+          }
+            
+        }
+        
+        .item.grey {
+          background: #444444;
+            
+          &:hover {
+            transition: .3s ease all;
+            background: #77d496;
+          }
+
+        }
+
+        .item.toggle {
+          border-radius: 50%;
+          background: red;
+        }
+        
+        .hidden {
+          display: none;
+        }
+
+      }
+    
+    }
+
+  }
+
+}
+
+textarea {
+  display: block;
+  width: 800px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+}
