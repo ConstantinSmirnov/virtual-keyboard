@@ -32,12 +32,16 @@
           border-radius: 0.3em;
           font-weight: 600;
           cursor: pointer;
-          transition: .5s ease all;
+          transition: .3s ease all;
           letter-spacing: .05em;
         }
 
         .item.large {
           padding: 0 0.625em;
+          
+          .toggle {
+            background: red;
+          }
         }
         
         .item.max-size {
@@ -48,7 +52,7 @@
           background: #222222;
 
           &:hover {
-            transition: .5s ease all;
+            transition: .3s ease all;
             background: #77d496;
           }
             
@@ -58,7 +62,7 @@
           background: #444444;
             
           &:hover {
-            transition: .5s ease all;
+            transition: .3s ease all;
             background: #77d496;
           }
 

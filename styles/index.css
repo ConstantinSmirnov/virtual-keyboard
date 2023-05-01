@@ -31,11 +31,14 @@
   border-radius: 0.3em;
   font-weight: 600;
   cursor: pointer;
-  transition: 0.5s ease all;
+  transition: 0.3s ease all;
   letter-spacing: 0.05em;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.large {
   padding: 0 0.625em;
+}
+.keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.large .toggle {
+  background: red;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.max-size {
   padding: 0 6.875em;
@@ -44,14 +47,14 @@
   background: #222222;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.black:hover {
-  transition: 0.5s ease all;
+  transition: 0.3s ease all;
   background: #77d496;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.grey {
   background: #444444;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.grey:hover {
-  transition: 0.5s ease all;
+  transition: 0.3s ease all;
   background: #77d496;
 }
 .keyboard .keyboard__wrapper .keyboard__row .keyboard__item .item.toggle {
